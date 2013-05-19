@@ -20,7 +20,7 @@
   function get_difference(){
     var sum_sqd = Math.pow(sum_map(1,LIM,function(n){ return n; }), 2);
     var sum_sqs = sum_map(1,LIM,function(n){  return Math.pow(n,2); });
-    return sum_sqd - sum_sq[];
+    return sum_sqd - sum_sqs;
   }
 
   console.log(get_difference());
