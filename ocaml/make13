@@ -1,0 +1,1 @@
+ocamlopt -o thirteen unix.cmxa nums.cmxa thirteen.ml
