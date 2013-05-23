@@ -1,0 +1,1 @@
+ocamlopt -o twelve unix.cmxa nums.cmxa twelve.ml
