@@ -84,6 +84,22 @@ def unit_tests():
 
   assert(count_hundreds([3,4,2]) == 23)
   assert(count_hundreds([1,1,5]) == 20)
+  assert(count_hundreds([9,0,8]) == 19)
+  assert(count_hundreds([8,3,2]) == 24)
+  assert(count_hundreds([7,1,5]) == 22)
+  assert(count_hundreds([1,9]) == 8)
+  assert(count_hundreds([1,8]) == 8)
+  assert(count_hundreds([1,7]) == 9)
+  assert(count_hundreds([1,6]) == 7)
+  assert(count_hundreds([1,5]) == 7)
+  assert(count_hundreds([1,4]) == 8)
+  assert(count_hundreds([1,3]) == 8)
+  assert(count_hundreds([1,2]) == 6)
+  assert(count_hundreds([1,1]) == 6)
+  assert(count_hundreds([2,7]) == 11)
+  assert(count_hundreds([1,0,0]) == 10)
+  assert(count_hundreds([1,0,1]) == 16)
+  assert(count_hundreds([1,1,9]) == 21)
   return
 
 unit_tests()
